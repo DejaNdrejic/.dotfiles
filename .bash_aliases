@@ -9,7 +9,6 @@ alias get='sudo apt install -y'
 alias polo='. ~/bin/polo.sh'
 alias marco='. ~/bin/marco.sh'
 alias mv='mv -i'
-alias vm='VirtualBoxVM --startvm "Ubuntu Server 20.04.4" &'
 function big() {
     du -h -x -s -- * | sort -r -h | head -20;
 }
